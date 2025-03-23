@@ -5,7 +5,7 @@
 echo -e "Enter the file name : \c"
 read file_name
 
-if [ -d $file_name ]
+if [ -s $file_name ]
 then
 	echo "$file_name found"
 else
